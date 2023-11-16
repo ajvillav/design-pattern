@@ -1,8 +1,11 @@
-package com.pattern.design.structural.decorator.usingdecorator;
+package com.pattern.design.structural.decorator;
 
 import com.pattern.design.structural.decorator.Alcohol;
 import com.pattern.design.structural.decorator.nodecorator.AlcoholWithCocaine;
 import com.pattern.design.structural.decorator.nodecorator.AlcoholWithTobacco;
+import com.pattern.design.structural.decorator.usingdecorator.Drug;
+import com.pattern.design.structural.decorator.usingdecorator.WithCocaine;
+import com.pattern.design.structural.decorator.usingdecorator.WithTobacco;
 
 public class Main {
     public static void main(String[] args) {
