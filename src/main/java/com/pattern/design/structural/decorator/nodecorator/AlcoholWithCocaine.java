@@ -1,6 +1,6 @@
-package com.pattern.design.structural.decorator.implementation.nodecorator;
+package com.pattern.design.structural.decorator.nodecorator;
 
-import com.pattern.design.structural.decorator.implementation.decorator.Drug;
+import com.pattern.design.structural.decorator.usingdecorator.Drug;
 
 public class AlcoholWithCocaine extends Drug {
 

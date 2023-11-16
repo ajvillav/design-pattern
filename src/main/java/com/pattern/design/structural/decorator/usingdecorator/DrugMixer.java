@@ -1,4 +1,4 @@
-package com.pattern.design.structural.decorator.implementation.decorator;
+package com.pattern.design.structural.decorator.usingdecorator;
 
 // Este es el decorador, la clase fundamental para poder implementar el patrón
 public abstract class DrugMixer extends Drug {

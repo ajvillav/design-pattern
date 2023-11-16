@@ -1,8 +1,8 @@
-package com.pattern.design.structural.decorator.implementation.decorator;
+package com.pattern.design.structural.decorator.usingdecorator;
 
-import com.pattern.design.structural.decorator.implementation.nodecorator.Alcohol;
-import com.pattern.design.structural.decorator.implementation.nodecorator.AlcoholWithCocaine;
-import com.pattern.design.structural.decorator.implementation.nodecorator.AlcoholWithTobacco;
+import com.pattern.design.structural.decorator.nodecorator.Alcohol;
+import com.pattern.design.structural.decorator.nodecorator.AlcoholWithCocaine;
+import com.pattern.design.structural.decorator.nodecorator.AlcoholWithTobacco;
 
 public class Main {
     public static void main(String[] args) {

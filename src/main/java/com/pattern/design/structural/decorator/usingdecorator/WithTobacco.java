@@ -1,4 +1,4 @@
-package com.pattern.design.structural.decorator.implementation.decorator;
+package com.pattern.design.structural.decorator.usingdecorator;
 
 public class WithTobacco extends DrugMixer {
 

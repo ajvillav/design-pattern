@@ -1,4 +1,4 @@
-package com.pattern.design.structural.decorator.implementation.decorator;
+package com.pattern.design.structural.decorator.usingdecorator;
 
 //Clase padre Droga de la cual heredaran las demás
 public abstract class Drug {
