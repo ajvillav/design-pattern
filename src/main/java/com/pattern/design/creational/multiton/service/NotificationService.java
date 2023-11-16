@@ -1,6 +1,6 @@
-package com.pattern.design.multiton.service;
+package com.pattern.design.creational.multiton.service;
 
-import com.pattern.design.multiton.util.SNSSender;
+import com.pattern.design.creational.multiton.util.SNSSender;
 
 public class NotificationService {
 

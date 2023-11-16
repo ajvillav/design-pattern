@@ -1,6 +1,6 @@
-package com.pattern.design.multiton;
+package com.pattern.design.creational.multiton;
 
-import com.pattern.design.multiton.service.NotificationService;
+import com.pattern.design.creational.multiton.service.NotificationService;
 
 public class Main {
     private static final NotificationService notificationService = new NotificationService();

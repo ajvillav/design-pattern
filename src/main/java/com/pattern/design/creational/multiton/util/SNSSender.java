@@ -1,4 +1,4 @@
-package com.pattern.design.multiton.util;
+package com.pattern.design.creational.multiton.util;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
@@ -18,7 +18,7 @@ public class SNSSender {
         this.topicArn = topicArn;
     }
 
-    public static SNSSender getInstance(String topicArn) {
+    public static  SNSSender getInstance(String topicArn) {
         return instances.computeIfAbsent(topicArn, SNSSender::new);
     }
 
