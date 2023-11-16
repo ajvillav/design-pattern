@@ -1,6 +1,6 @@
 package com.pattern.design.structural.decorator.usingdecorator;
 
-import com.pattern.design.structural.decorator.nodecorator.Alcohol;
+import com.pattern.design.structural.decorator.Alcohol;
 import com.pattern.design.structural.decorator.nodecorator.AlcoholWithCocaine;
 import com.pattern.design.structural.decorator.nodecorator.AlcoholWithTobacco;
 

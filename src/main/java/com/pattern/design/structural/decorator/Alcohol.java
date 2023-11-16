@@ -1,4 +1,4 @@
-package com.pattern.design.structural.decorator.nodecorator;
+package com.pattern.design.structural.decorator;
 
 import com.pattern.design.structural.decorator.usingdecorator.Drug;
 
