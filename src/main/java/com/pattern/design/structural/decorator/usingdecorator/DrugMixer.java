@@ -11,13 +11,13 @@ public abstract class DrugMixer extends Drug {
     }
 
     @Override
-    public String sensation() {
-        return baseDrug.sensation();
+    public String getSensation() {
+        return baseDrug.getSensation();
     }
 
     @Override
-    public double price() {
-        return baseDrug.price();
+    public double getPrice() {
+        return baseDrug.getPrice();
     }
 
 }

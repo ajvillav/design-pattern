@@ -11,13 +11,13 @@ public class WithTobacco extends DrugMixer {
      * el codigo anterior
      */
     @Override
-    public String sensation() {
-        return baseDrug.sensation() + ", slight dizziness";
+    public String getSensation() {
+        return baseDrug.getSensation() + ", slight dizziness";
     }
 
     @Override
-    public double price() {
-        return baseDrug.price() + 2.0;
+    public double getPrice() {
+        return baseDrug.getPrice() + 2.0;
     }
 
 }

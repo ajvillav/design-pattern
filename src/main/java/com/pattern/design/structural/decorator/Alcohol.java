@@ -5,12 +5,12 @@ import com.pattern.design.structural.decorator.usingdecorator.Drug;
 public class Alcohol extends Drug {
 
     @Override
-    public String sensation() {
+    public String getSensation() {
         return "Feeling of euphoria, relaxation";
     }
 
     @Override
-    public double price() {
+    public double getPrice() {
         return 5.0;
     }
 }

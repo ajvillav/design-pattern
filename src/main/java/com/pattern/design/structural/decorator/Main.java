@@ -1,6 +1,5 @@
 package com.pattern.design.structural.decorator;
 
-import com.pattern.design.structural.decorator.Alcohol;
 import com.pattern.design.structural.decorator.nodecorator.AlcoholWithCocaine;
 import com.pattern.design.structural.decorator.nodecorator.AlcoholWithTobacco;
 import com.pattern.design.structural.decorator.usingdecorator.Drug;
@@ -14,14 +13,14 @@ public class Main {
         Drug softDrug = new AlcoholWithTobacco();
 
         System.out.println("\nEsto es alcohol con tabaco sin usar el patrón decorator:");
-        System.out.println("\n" + softDrug.sensation());
-        System.out.println(softDrug.price());
+        System.out.println("\n" + softDrug.getSensation());
+        System.out.println(softDrug.getPrice());
 
         Drug heavyDrug = new AlcoholWithCocaine();
 
         System.out.println("\nEsto es alcohol con cocaina sin usar el patrón decorator:");
-        System.out.println("\n" + heavyDrug.sensation());
-        System.out.println(heavyDrug.price());
+        System.out.println("\n" + heavyDrug.getSensation());
+        System.out.println(heavyDrug.getPrice());
 
 
 
@@ -31,7 +30,7 @@ public class Main {
         superHeavyDrug = new WithCocaine(superHeavyDrug);
 
         System.out.println("\nEsto es alcohol con tabaco y cocaina usando el patrón decorator:");
-        System.out.println("\n" + superHeavyDrug.sensation());
-        System.out.println("Total price: $" + superHeavyDrug.price() + "\n");
+        System.out.println("\n" + superHeavyDrug.getSensation());
+        System.out.println("Total price: $" + superHeavyDrug.getPrice() + "\n");
     }
 }

@@ -7,12 +7,12 @@ public class WithCocaine extends DrugMixer{
     }
 
     @Override
-    public String sensation() {
-        return baseDrug.sensation() + ", intense energy and confidence";
+    public String getSensation() {
+        return baseDrug.getSensation() + ", intense energy and confidence";
     }
 
     @Override
-    public double price() {
-        return baseDrug.price() + 25.0;
+    public double getPrice() {
+        return baseDrug.getPrice() + 25.0;
     }
 }
