@@ -1,12 +1,12 @@
-package com.pattern.design.behavioral.ChainOfResponsability;
+package com.pattern.design.behavioral.chainofresponsability;
 
-class InfoLogger implements Logger {
+public class ErrorLogger implements Logger {
     private Logger nextLogger;
 
     @Override
     public void logMessage(String message, LogLevel level) {
-        if (level == LogLevel.INFO) {
-            System.out.println("INFO: " + message);
+        if (level == LogLevel.ERROR) {
+            System.out.println("ERROR: " + message);
         } else if (nextLogger != null) {
             nextLogger.logMessage(message, level);
         }
