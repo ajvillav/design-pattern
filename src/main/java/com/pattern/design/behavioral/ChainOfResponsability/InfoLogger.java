@@ -1,4 +1,4 @@
-package com.pattern.design.bijeibioral.ChainOfResponsability;
+package com.pattern.design.behavioral.ChainOfResponsability;
 
 class InfoLogger implements Logger {
     private Logger nextLogger;

@@ -1,4 +1,4 @@
-package com.pattern.design.bijeibioral.ChainOfResponsability;
+package com.pattern.design.behavioral.ChainOfResponsability;
 
 public interface Logger {
     void logMessage(String message, LogLevel level);
