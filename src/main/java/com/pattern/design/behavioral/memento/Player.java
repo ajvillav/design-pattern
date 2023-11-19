@@ -1,5 +1,6 @@
 package com.pattern.design.behavioral.memento;
 
+import lombok.AccessLevel;
 import lombok.Getter;
 
 @Getter
@@ -28,7 +29,7 @@ public class Player {
         return "Player location: [X=" + locationX + ", Y=" + locationY + "]";
     }
 
-    @Getter
+    @Getter(AccessLevel.PRIVATE)
     private class Memento {
 
         int locationX;
